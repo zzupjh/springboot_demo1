@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.dao.StuDao">
+
+    <select id="selectAll" resultType="stu">
+        select stu_id stuId,stu_name stuName,stu_age stuAge,stu_gender stuGender from a_student
+    </select>
+
+</mapper>
